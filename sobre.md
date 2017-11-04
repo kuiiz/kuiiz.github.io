@@ -8,8 +8,8 @@ Oi Internet, Seja bem vindo! Fique a vontade.
 Aqui nós vamos brincar um pouco com a internet, falar sobre os fracassos do dia-a-dia e mexer em códigos de computador. Não importa se você é de Humanas ou de Exatas, o importante é que você chegou até aqui.
 
 Mas por que Kuiiz ?
-Rapaz ... Era pra ser um jogo, uma plataforma de perguntas e respostas (tai o por que do "Kuiiz" de quiz) relacionado ao mundo dos games, mas ai sabe como é : "Procastinação", ela não deixou continuar.
-Como eu ja tinha registrado o dominio, vai servir pra este blog.
+Rapaz ... Era pra ser um jogo, uma plataforma de perguntas e respostas (tai o por quê do "Kuiiz" de quiz) relacionado ao mundo dos games, mas ai sabe como é : "Procastinação", ela não deixou continuar.
+Como eu ja tinha registrado o domínio, vai servir pra este blog.
 
 O espaço é gratuito, aproveite a estadia.
 
