@@ -3,7 +3,7 @@ title: Sobre
 layout: page
 ---
 
-Oi Internet, Seje bem vindo! Fique a vontade.
+Oi Internet, Seja bem vindo! Fique a vontade.
 
 Aqui nós vamos brincar um pouco com a internet, falar sobre os fracassos do dia-a-dia e mexer em códigos de computador. Não importa se você é de Humanas ou de Exatas, o importante é que você chegou até aqui.
 
