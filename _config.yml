@@ -11,13 +11,11 @@ title: Kuiiz
 email: bsilva.se@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Oi Internet, seja bem vindo ! Pode entrar, o espaço é gratuito.
-url: "http://kuiiz.com/br" # the base hostname & protocol for your site
+url: "http://kuiiz.com" # the base hostname & protocol for your site
 sobre: /sobre
-contato: /contato
 
 baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  bstk
-facebook_username: bsilvablog.se@gmail.com
 
 sass:
   style: compressed
