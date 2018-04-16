@@ -15,6 +15,9 @@ Como estamos utilizando o **Spring Boot**, vamos usufruir das facilidades que o 
 
 ![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer.png "Spring Initializer")
 
+> Nota : Quando acessar o Spring Initializer clique em **Don't know what to look for ? Want more options ? Switch to the full version.** para que seja mostrado todos os campos
+
+
 Logo em seguida clique no botão **Generate Project** para fazer o download do projeto :
 
 ![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer-gerar-projeto.png "Spring Initializer")
@@ -63,6 +66,7 @@ Na pasta raiz do projeto, execute o seguinte comando :
 > Nota 1: Eu estou utilizando o Linux, caso você esteja com Windows, digite apenas :  **mvnw spring-boot:run** sem o **./**
 > 
 > Nota 2: O arquivo mvnw que veio junto com o projeto é um **wrapper do maven**, assim não sendo necessário que você tenha o maven instalado em sua máquina.
+
 
 
 Agora acesse **http://localhost:8080/**  e você deverá ver a seguinte tela :
