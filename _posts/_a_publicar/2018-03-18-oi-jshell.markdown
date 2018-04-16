@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Oi JShell"
+date:   2018-03-18 00:00:00 +0530
+categories: java9 java
+---
+
+Vamos brincar com Java 9 ? Mas como ? Simples, te apresento JShell <3
+
+Se você acabou de baixar e instalar a versão 9 do Java, saiba que agora temos um *Um console interativo* (REPL - Read-Eval-Print Loop) só nosso para testarmos código java de maneira fácil, rápida e sem enrrolação.
+
+Mas não se engane pesando que isso é novidade, pois não é ! NodeJs, Python, Scala e outras já vem com REPL embutido mas só agora na sua nona versão que o Java ganhou o seu (uns dirão que é lentidão ... bom não sei |-: ) 
+
+Mas onde eu usaria o JShell ?
+
+Imagine que você precise testar um código simples, coisa rápida, fariamos o seguinte :
+
+    1 - Abrir o IDE (Oi eclipse)
+    2 - Criar um projeto (caso não exista)
+    3 - Criar uma classe
+    4 - Criar um método main
+    5 - Agora sim, implementar o código que queriamos
+
+Com o JShell :
+
+    1 - Abrir o JShell
+    2 - Implementar o código e dar enter
+
+Vamos aos exemplos :
+
+Precisamos saber quantas letras existem no nome do sistema operacional (mas que diabos de exemplo) :
+jshell> System.getProperty("os.name").length()
+$21 ==> 5
+
+Precisamos saber quais são as variaveis de ambiente do sistema operacial :
+
+
+
+
+
+O Vale Europeu é uma região localizada no Vale do Itajaí no interior de Santa Catarina, fazendo parte dele as cidades :
+**Apiúna, Ascurra, Benedito Novo, Doutor Pedrinho, Indaial, Pomerode, Rio dos Cedros, Rodeio e Timbó**
+[Saiba mais aqui : Municípios Integrantes](https://circuitovaleeuropeu.com.br/municipios-integrantes/).
+
+![alt text](https://raw.githubusercontent.com/BSTK/bstk.github.io/master/asserts/posts/series/vale-europeu/foto-vale-europeu-01.png)
+
+Eu conheci esse lugar a mais ou menos dois anos atrás numa reportagem que passou no [globo reporter](http://g1.globo.com/globo-reporter/noticia/2016/02/vale-europeu-e-regiao-do-brasil-campea-em-qualidade-de-vida.html)
+mostrando as cidades e as belezas desse lugar. Depois dessa reportagem, eu pensei : *Rapaz, tenho que conhecer !* E também foi nessa época que comecei a andar de bike. Logo, casou as duas coisas, pois o Vale é um dos circuitos de cicloturismo mais incluíveis do Brasil.
+
+Chegou janeiro, mês de féiras era hora de descermos (Schwinn (a bike) e Eu) rumo ao sul, para a cidade de **Timbó** onde inicia e termina o circuito.
+
+![alt text](https://raw.githubusercontent.com/BSTK/bstk.github.io/master/asserts/posts/series/vale-europeu/foto-vale-europeu-00.jpg "Saída de Embu das Artes")
+
+Se você chegou até aqui, obrigado.
+Continuamos no próximo post.
+
+Até !
