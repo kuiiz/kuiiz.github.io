@@ -70,9 +70,15 @@ Na pasta raiz do projeto, execute o seguinte comando :
 
 
 
+
 Agora acesse **http://localhost:8080/**  e você deverá ver a seguinte tela :
 
 ![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/tela-inicial-configuraaoo-pronta.png "Configuração pronta !")
+
+
+
+Agora sim, temos um aplicativo com **Spring Boot** devidamente configurado e funcionando. Não paramos por aqui, continue seguindo a série pois temos um longo percurso pela frente.
+
 
 Se você chegou até aqui, obrigado.
 Continuamos no próximo post.
