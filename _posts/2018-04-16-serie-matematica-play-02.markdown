@@ -15,7 +15,7 @@ Como estamos utilizando o **Spring Boot**, vamos usufruir das facilidades que o 
 
 ![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer.png "Spring Initializer")
 
-> Nota : Quando acessar o Spring Initializer clique em **Don't know what to look for ? Want more options ? Switch to the full version.** para que seja mostrado todos os campos
+> Nota : Quando acessar o Spring Initializr clique em **Don't know what to look for ? Want more options ? Switch to the full version.** para que seja mostrado todos os campos
 
 
 Logo em seguida clique no botão **Generate Project** para fazer o download do projeto :
@@ -39,9 +39,10 @@ e nele criar a classe :
 HomeController
 ```
 
-Esta classe será um controlador REST, para isso devemos anotá-la com a annotation : **@RestController**. Feito isso, crie o método **home** que devolverá apenas uma string com a mensagem:   **Matemática Play (-:**
+Esta classe será um controlador REST, para isso devemos anotá-la com a annotation : **@RestController**. Feito isso, crie o método **home** e anote-o com  **@GetMapping** definindo o valor **"/"**, assim quando chamarmos o endereço **http://localhost:8080/** nosso método será executado retornando a string com a mensagem: **Matemática Play (-:**
 
 O código completo da classe ficará assim :
+
 ```java
 package com.kuiiz.matematicaplay.operacao.web;
 
