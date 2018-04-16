@@ -5,8 +5,6 @@ date:   2018-04-16 00:00:00 +0530
 categories: spring-boot
 ---
 
-# Vamos começar ?
-
 Depois de apresentar todas as ferramentas que iremos utilizar para construir nosso aplicativo **Matemática Play**, é hora de colocarmos a mão na massa.
 Vamos seguir uma abordagem **iterativa e incremental orientada a requisitos**, onde partiremos de uma simples aplicação monolítica até chegarmos a glória dos micro-serviços.
 
