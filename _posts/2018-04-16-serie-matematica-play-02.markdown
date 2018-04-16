@@ -14,15 +14,15 @@ Vamos seguir uma abordagem **iterativa e incremental orientada a requisitos**, o
 
 Como estamos utilizando o **Spring Boot**, vamos usar as facilidades que o Spring nos fornece. Eu estou utilizando o [STS - Spring Tool Suite](https://spring.io/tools/sts/all) mas caso você use o Eclipse ou IntelliJ, podemos usar um serviço do Spring para gerar a estrutura do nosso projeto, basta acessar  [Spring Initializer](http://start.spring.io/) e preencher os campos conforme imagem abaixo :
 
-![alt text](https://raw.githubusercontent.com/BSTK/bstk.github.io/master/asserts/posts/series/matematica-play/spring-initializer.png "Spring Initializer")
+![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer.png "Spring Initializer")
 
 Logo em seguida clique no botão **Generate Project** para fazer o download do projeto :
 
-![alt text](https://raw.githubusercontent.com/BSTK/bstk.github.io/master/asserts/posts/series/matematica-play/spring-initializer-gerar-projeto.png "Spring Initializer")
+![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer-gerar-projeto.png "Spring Initializer")
 
 Após o download, descompacte o arquivo zip no seu workspace e importe o projeto em sua IDE. A estrutura do projeto importado deve se parecer como imagem abaixo :
 
-![alt text](https://raw.githubusercontent.com/BSTK/bstk.github.io/master/asserts/posts/series/matematica-play/estrutura-do-projeto.png "Estrutura do projeto")
+![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/estrutura-do-projeto.png "Estrutura do projeto")
 
 ## Pronto é quando está no ar !
 
@@ -66,7 +66,7 @@ Na pasta raiz do projeto, execute o seguinte comando :
 
 Agora acesse *http://localhost:8080/* e você deverá ver a seguinte tela :
 
-![alt text](https://raw.githubusercontent.com/BSTK/bstk.github.io/master/asserts/posts/series/matematica-play/tela-inicial-configuraaoo-pronta.png "Configuração pronta !")
+![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/tela-inicial-configuraaoo-pronta.png "Configuração pronta !")
 
 Se você chegou até aqui, obrigado.
 Continuamos no próximo post.
