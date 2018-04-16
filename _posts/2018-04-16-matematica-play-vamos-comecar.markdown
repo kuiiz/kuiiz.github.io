@@ -11,9 +11,9 @@ Vamos seguir uma abordagem **iterativa e incremental**, onde partiremos de uma s
 
 ## Criando o projeto
 
-Como estamos utilizando o **Spring Boot**, vamos usufruir das facilidades que o Spring nos fornece. A IDE que usarei nesta série é o [STS - Spring Tool Suite](https://spring.io/tools/sts/all) mas caso você use o Eclipse ou IntelliJ, pode-se usar um serviço do Spring para gerar a estrutura do nosso projeto, basta acessar  [Spring Initializer](http://start.spring.io/) e preencher os campos conforme imagem abaixo :
+Como estamos utilizando o **Spring Boot**, vamos usufruir das facilidades que o Spring nos fornece. A IDE que usarei nesta série é o [STS - Spring Tool Suite](https://spring.io/tools/sts/all) mas caso você use o Eclipse ou IntelliJ, pode-se usar um serviço do Spring para gerar a estrutura do nosso projeto, basta acessar  [Spring Initializr](http://start.spring.io/) e preencher os campos conforme imagem abaixo :
 
-![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer.png "Spring Initializer")
+![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer.png "Spring Initializr")
 
 > Nota : Quando acessar o Spring Initializr clique em **Don't know what to look for ? Want more options ? Switch to the full version.** para que seja mostrado todos os campos
 
