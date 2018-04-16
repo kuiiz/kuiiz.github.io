@@ -6,11 +6,12 @@ categories: spring-boot
 ---
 
 Depois de apresentar todas as ferramentas que iremos utilizar para construir nosso aplicativo **Matemática Play**, é hora de colocarmos a mão na massa.
-Vamos seguir uma abordagem **iterativa e incremental orientada a requisitos**, onde partiremos de uma simples aplicação monolítica até chegarmos a glória dos micro-serviços.
+Vamos seguir uma abordagem **iterativa e incremental**, onde partiremos de uma simples aplicação monolítica até chegarmos ao uso dos micro-serviços.
+
 
 ## Criando o projeto
 
-Como estamos utilizando o **Spring Boot**, vamos usar as facilidades que o Spring nos fornece. Eu estou utilizando o [STS - Spring Tool Suite](https://spring.io/tools/sts/all) mas caso você use o Eclipse ou IntelliJ, podemos usar um serviço do Spring para gerar a estrutura do nosso projeto, basta acessar  [Spring Initializer](http://start.spring.io/) e preencher os campos conforme imagem abaixo :
+Como estamos utilizando o **Spring Boot**, vamos usufruir das facilidades que o Spring nos fornece. A IDE que usarei nesta série é o [STS - Spring Tool Suite](https://spring.io/tools/sts/all) mas caso você use o Eclipse ou IntelliJ, pode-se usar um serviço do Spring para gerar a estrutura do nosso projeto, basta acessar  [Spring Initializer](http://start.spring.io/) e preencher os campos conforme imagem abaixo :
 
 ![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/spring-initializer.png "Spring Initializer")
 
@@ -21,6 +22,7 @@ Logo em seguida clique no botão **Generate Project** para fazer o download do p
 Após o download, descompacte o arquivo zip no seu workspace e importe o projeto em sua IDE. A estrutura do projeto importado deve se parecer como imagem abaixo :
 
 ![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/estrutura-do-projeto.png "Estrutura do projeto")
+
 
 ## Pronto é quando está no ar !
 
@@ -53,16 +55,17 @@ public class HomeController {
 
 ```
 
-Agora que temos um endpoint válido para receber requisições, vamos iniciar nosso aplicativo e ve-lo funcionando. 
+Agora que temos um endpoint válido para receber requisições, vamos iniciar nosso aplicativo e vê-lo funcionar. 
 Na pasta raiz do projeto, execute o seguinte comando : 
 ```java
 ./mvnw spring-boot:run
 ```
-> Nota 1: Eu estou utilizando o Linux, caso você esteja com Windows, digite apenas :  mvnw spring-boot:run sem o ./
+> Nota 1: Eu estou utilizando o Linux, caso você esteja com Windows, digite apenas :  **mvnw spring-boot:run** sem o **./**
 > 
 > Nota 2: O arquivo mvnw que veio junto com o projeto é um **wrapper do maven**, assim não sendo necessário que você tenha o maven instalado em sua máquina.
 
-Agora acesse *http://localhost:8080/* e você deverá ver a seguinte tela :
+
+Agora acesse **http://localhost:8080/**  e você deverá ver a seguinte tela :
 
 ![alt text](https://raw.githubusercontent.com/kuiiz/kuiiz.github.io/master/asserts/posts/series/matematica-play/tela-inicial-configuraaoo-pronta.png "Configuração pronta !")
 
